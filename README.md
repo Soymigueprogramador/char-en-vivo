@@ -26,12 +26,12 @@ Descripción: Este es un chat en vivo que fue creado en el marco del curso de pr
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/tu-repo.git
+    git clone https://github.com/Soymigueprogramador/char-en-vivo
     ```
 2. Instala las dependencias:
     ```bash
     Despues de clonar el repositorio abris la carpeta, abris una terminal y usas el siguiente comando 
-    ' npm install ' esto descargara todas las dependencias mencionadas en el package.json.
+    npm install esto descargara todas las dependencias mencionadas en el package.json.
     ```
 
 ## Uso
@@ -47,11 +47,15 @@ Descripción: Este es un chat en vivo que fue creado en el marco del curso de pr
 
 Breve explicación de la estructura de carpetas y archivos principales del proyecto:1
 1- node_modules: Contiene las dependencias usas en el proyecto.
+
 2- .vscode: contiene las plabras mencionadas en el proyecto. 
-2- img-proyect-capture: contiene el captura de pantalla del proyecto.
+
+3- img-proyect-capture: contiene el captura de pantalla del proyecto.
+
 4- public: contiene las carpetas de css y js
        css: contiene el archivo styles.css con los estilos del proyecto.
        ja contiene el archivo index.js con la logica del chat del lado del usuario.
+
 5- src: contiene las carpetas de routes, views el archivo app.js.
        routes: contiene el archivo views.router.js con la ruta del index
        views: contiene las carpetas layout y partials
@@ -59,7 +63,9 @@ Breve explicación de la estructura de carpetas y archivos principales del proye
            partials: en este caso esta varia pero aca se guardan los handlebars que son reutilizados en el proyecto.
         index.handlebars: contiene la estructura del chat.
        app.js: contiene la estructura y logica para el servidor.
+
 6- .gitignore: contiene las carpetas y archivos que son ignorados al momento de cargar el repositorio.
+
 7- package.json: contienen datos importantes para el proyecto.
 
 ## Ejemplos
