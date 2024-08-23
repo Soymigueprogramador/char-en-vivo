@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat en Vivo</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="chat-window">
+        <h1> Chat en Vivo </h1>
+
+        <div class="chat-container" id="messagesLogs">
+        </div>
+
+        <div class="chat-input-container">
+            <input type="text" id="chatBox" placeholder="Ingresa tu mensaje. ( Apreta 'Enter' para enviar el mensaje )" class="chat-input">
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
