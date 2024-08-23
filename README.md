@@ -72,7 +72,9 @@ Breve explicación de la estructura de carpetas y archivos principales del proye
 
 Ejemplos de cómo se ve la interfaz del chat.
 
-![Ejemplo de Interfaz](./img-proyect-capture/chat-em-vivo.png)
+![Ejemplo de Interfaz en PC](./img-proyect-capture/chat-en-vivo-en-vista-desktop.png)
+![Ejemplo de Interfaz en Tablet](./img-proyect-capture/chat-en-vivo-en-vista-tablet.jpg)
+![Ejemplo de Interfaz en Mobile](./img-proyect-capture/chat-en-vivo-en-vista-mobile.jpg)
 
 ## Contacto
 
